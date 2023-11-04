@@ -3,6 +3,14 @@ html {
     font-size: 16px;
 }
 
+h1, h2, h3, h4 {
+    color: transparent;
+    background-image: linear-gradient(45deg, #031946, #2196F3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 1.3;
+}
+
 /* Navigation */
 
 nav {
@@ -63,7 +71,7 @@ nav {
 /* Header */
 
 header {
-    background: #dee4f0;
+    background: #e2effb;
     padding: 96px 24px 32px;
     max-width: 100%;
     display: inline-flex;
@@ -88,6 +96,7 @@ h1 {
     font-size: 3.2rem;
     font-weight: 600;
     margin-bottom: 20px;
+    line-height: 1;
 }
 
 .headline-cta h5 {
@@ -178,7 +187,7 @@ h4 {
 
 .info-text a {
     text-decoration: none;
-    color: #4a71be;
+    color: #0B73C5;
 }
 
 p.author {
