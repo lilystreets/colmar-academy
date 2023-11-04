@@ -201,3 +201,10 @@ p.author {
         display: none;
     }
 }
+
+/* Courses section */
+
+#courses {
+    background: #f0f0f0;
+    padding: 32px 72px;
+}
