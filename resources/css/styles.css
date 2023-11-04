@@ -63,7 +63,7 @@ nav {
 /* Header */
 
 header {
-    background: lightgrey;
+    background: #dee4f0;
     padding: 96px 24px 32px;
     width: 100%;
     display: inline-flex;
@@ -105,6 +105,6 @@ a.button-cta {
     text-align: center;
     text-decoration: none;
     color: white;
-    background: grey;
+    background: #debd35;
     font-size: 1.2rem;
 }
