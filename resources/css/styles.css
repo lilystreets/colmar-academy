@@ -275,3 +275,18 @@ video {
 #thesis .infobox {
     border: none;
 }
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #f0f0f0;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 8px;
+    color: black;
+}
