@@ -230,3 +230,15 @@ p.author {
     background: white;
 }
 
+.content {
+    padding: 16px;
+}
+
+p.category {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.content p {
+    line-height: 1.3;
+}
