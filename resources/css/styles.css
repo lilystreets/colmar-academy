@@ -119,6 +119,10 @@ nav {
     font-size: 1.1rem;
 }
 
+.navigation-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .logo {
         display: none;
@@ -127,6 +131,7 @@ nav {
         display: none;
     }
     .navigation-mobile {
+        display: block;
         width: 100%;
     }
     .icon-links {
@@ -187,7 +192,7 @@ h1 {
 
 a.button-cta {
     display: block;
-    max-width: 400px;
+    max-width: 80%;
     padding: 8px;
     text-align: center;
     text-decoration: none;
@@ -292,7 +297,7 @@ p.author {
     font-size: 0.9rem;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
     img.mobile-img {
         display: none;
     }
@@ -340,6 +345,10 @@ p.author {
 p.category {
     text-transform: uppercase;
     margin-bottom: 8px;
+}
+
+.courses-list-mobile {
+    display: none;
 }
 
 /* Thesis section */
@@ -490,6 +499,7 @@ footer a {
         margin-bottom: 16px;
     }
     .courses-list-mobile {
+        display: block;
         width: 100%;
         padding-bottom: 24px;
         border-bottom: 2px solid #f0f0f0;
