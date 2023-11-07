@@ -404,3 +404,97 @@ footer a {
     color: black;
 }
 
+/* Media query */
+
+@media only screen and (max-width: 768px) {
+    header {
+        display: block;
+    }
+    header .img-container {
+        width: 100%;
+        padding: 64px 0 0;
+    }
+    .headline-cta {
+        width: 100%;
+        padding-left: 0;
+    }
+    h1 {
+        font-size: 2.1rem;
+        padding: 32px 0 0 16px;
+        margin-bottom: 32px;
+    }
+    .headline-cta h5 {
+        font-size: 1.2rem;
+        padding: 0 16px;
+        margin-bottom: 24px;
+    }
+    a.button-cta {
+        max-width: 100%;
+        margin: 0 16px 32px;
+    }
+    .all-info {
+        display: block;
+    }
+    .main-info {
+        display: none;
+    }
+    .right-info {
+        width: 100%;
+        padding-top: 0;
+    }
+    .infobox {
+        display: block;
+        border-bottom: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .infobox-img {
+        max-width: 100%;
+    }
+    .info-text {
+        max-width: 100%;
+        padding: 16px;
+    }
+    .info-text a {
+        margin-bottom: 16px;
+    }
+    .infobox.last {
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 0;
+    }
+    .courses-list {
+        display: none;
+    }
+    .all-thesis {
+        display: block;
+    }
+    .main-thesis {
+        width: 100%;
+        padding: 0;
+    }
+    .main-thesis h3 {
+        display: none;
+    }
+    .main-thesis .description {
+        display: none;
+    }
+    .right-thesis {
+        display: none;
+    }
+    #courses {
+        background: white;
+    }
+    #courses h2, #thesis h2 {
+        margin-bottom: 16px;
+    }
+    footer {
+        border-top: none;
+    }
+    p.rights {
+        font-size: 0.8rem;
+    }
+    .bottom-links {
+        display: none;
+    }
+}
