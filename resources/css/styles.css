@@ -69,7 +69,7 @@ nav {
     height: 62px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #f0f0f0;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .logo {
@@ -173,6 +173,7 @@ header img {
     flex-direction: column;
     justify-content: center;
     padding-left: 24px;
+    padding-top: 64px;
 }
 
 h1 {
