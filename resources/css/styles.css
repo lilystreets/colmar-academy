@@ -117,20 +117,21 @@ nav {
 
 header {
     background: #e2effb;
-    padding: 96px 24px 32px;
-    max-width: 100%;
+    width: 100%;
     display: inline-flex;
 }
 
 header .img-container {
-    max-width: 60%;
+    width: 60%;
+    padding: 96px 0 32px 24px;
 }
 
 header img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .headline-cta {
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,7 +155,7 @@ h1 {
 
 a.button-cta {
     display: block;
-    max-width: 75%;
+    max-width: 400px;
     padding: 8px;
     text-align: center;
     text-decoration: none;
@@ -178,7 +179,7 @@ a.button-cta:hover {
 }
 
 .main-info {
-    max-width: 60%;
+    width: 60%;
     padding: 32px 24px;
     border-right: 2px solid #f0f0f0;
 }
@@ -189,7 +190,7 @@ a.button-cta:hover {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -208,6 +209,7 @@ h3 {
 
 .right-info {
     padding-top: 16px;
+    width: 40%;
 }
 
 .infobox {
@@ -263,8 +265,8 @@ p.author {
 /* Courses section */
 
 #courses {
+    width: 100%;
     background: #f0f0f0;
-    padding: 32px 72px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,16 +274,19 @@ p.author {
 
 #courses h2 {
     margin-bottom: 12px;
+    margin-top: 32px;
 }
 
 .courses-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 72px 32px;
 }
 
 .course-box {
-    max-width: 30%;
+    width: 30%;
     margin: 16px;
     background: white;
     transition: all 0.25s ease;
@@ -319,7 +324,7 @@ p.category {
 }
 
 .main-thesis {
-    max-width: 60%;
+    width: 60%;
     padding: 32px 24px;
 }
 
@@ -328,6 +333,7 @@ video {
 }
 
 .right-thesis {
+    width: 40%;
     padding-top: 16px;
 }
 
