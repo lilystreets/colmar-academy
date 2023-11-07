@@ -66,9 +66,10 @@ nav {
     z-index: 1;
     background: white;
     width: 100%;
-    height: 64px;
+    height: 62px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #f0f0f0;
 }
 
 .logo {
@@ -139,7 +140,7 @@ nav {
         justify-content: space-between;
     }
     .link-item img {
-        width: 40px;
+        width: 30px;
         margin: 0 auto;
     }
 }
@@ -487,6 +488,20 @@ footer a {
     }
     #courses h2, #thesis h2 {
         margin-bottom: 16px;
+    }
+    .courses-list-mobile {
+        width: 100%;
+        padding-bottom: 24px;
+        border-bottom: 2px solid #f0f0f0;
+    }
+    .course-link {
+        background: #e2effb;
+        padding: 16px 16px 24px;
+        margin: 0 16px 8px;
+    }
+    .course-link h4 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
     }
     footer {
         border-top: none;
